@@ -1,0 +1,46 @@
+{
+  "name": "grunt-aws-polly",
+  "description": "A grunt plugin to produce audio files from text strings with AWS Polly",
+  "version": "0.1.0",
+  "homepage": "https://github.com/sbuzonas/grunt-aws-polly",
+  "author": {
+    "name": "Steve Buzonas",
+    "email": "steve@fancyguy.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sbuzonas/grunt-aws-polly"
+  },
+  "bugs": {
+    "url": "https://github.com/sbuzonas/grunt-aws-polly/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://sbuzonas.mit-license.org"
+    }
+  ],
+  "scripts": {
+    "test": "grunt"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.8.0",
+    "proxy-agent": "^2.0.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-jshint": "^1.1.0"
+  },
+  "peerDependencies": {
+    "grunt": ">=1.0.0"
+  },
+  "keywords": [
+    "gruntplugin",
+    "aws",
+    "polly",
+    "speech",
+    "text",
+    "text-to-speech"
+  ]
+}
